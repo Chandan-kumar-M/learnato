@@ -5,7 +5,7 @@ export default function App() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [search, setSearch] = useState('');
-  const API = 'http://localhost:5000';
+  const API = import.meta.env.VITE_API_BASE;
   const fetchPosts = async () => {
     const res = await axios.get(`${API}/posts?search=${encodeURIComponent(search)}`);
     setPosts(res.data);
