@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+dist/
+build/
+.cache/
+out/
+.vite/
+
+# Env files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.example
+
+# OS / IDE stuff
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Lock files (optional if you want clean repo)
+package-lock.json
+yarn.lock
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Backend specific
+backend/node_modules/
+backend/.env
