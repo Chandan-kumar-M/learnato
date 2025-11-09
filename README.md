@@ -1,11 +1,4 @@
-Good — here’s a **clean, professional, submission-ready `README.md`** for your project.
-It covers: name, description, tech stack, features, architecture, and exact local + Render deployment instructions.
 
----
-
-## 🧾 **README.md**
-
-```markdown
 # 💬 Learnato Discussion Forum Microservice
 
 A browser-based **discussion forum microservice** built for the Learnato Hackathon challenge.  
